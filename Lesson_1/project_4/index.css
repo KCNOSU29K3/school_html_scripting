@@ -1,0 +1,32 @@
+
+
+/* Defining background */
+
+.main {
+    background-color: #2326DC;
+}
+
+/* Defining Headings */
+
+heading-one {
+    background-color: #2382DC;
+    color:#7D23DC
+}
+
+heading-two {
+    background-color: #43ABBC;
+    color: #5443BC;
+}
+
+heading-three {
+    background-color: #5443BC;
+    color: #436EBC;
+}
+
+/* Defining paragraph style */
+
+para-style {
+    color: #43ABBC;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5px;
+}

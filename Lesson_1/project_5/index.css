@@ -1,0 +1,17 @@
+/* Defining background of page */
+
+.main {
+    background-color: black;
+}
+
+/* Defining {insert type} */
+
+copy-paste-style-template {
+    background-color: black;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center;
+}

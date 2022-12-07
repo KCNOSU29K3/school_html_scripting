@@ -1,0 +1,67 @@
+/* Defining background of page */
+
+.main {
+    background-color: rgba(73, 73, 73, 0.658);
+}
+
+/* Defining {insert type} */
+
+.copy-paste-style-template {
+    background-color: black;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* link styling  */
+
+
+a:link {
+    color: aqua;   
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color:orangered;
+}
+
+
+/* centering  */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+div {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+h1 {
+    color:white
+}
+
+
+address {
+    color:black;
+    background-color: #85B175;
+}

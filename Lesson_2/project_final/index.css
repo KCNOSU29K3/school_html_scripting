@@ -1,0 +1,145 @@
+/* animating stuff  */
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+body{
+  background: #42455a;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.section_top{
+  color: #fafafa;
+  }
+.section_content{
+  color: #42455a;
+  background: #fafafa;
+}
+
+section .container{
+  margin: 100px;
+  text-align: center;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* end animating stuff  */
+
+/* nav bar stuff */
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.li-nav {
+    float: left;
+}
+
+.li-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.li-nav a:hover {
+    background-color: #111111;
+}
+
+/* end nav bar stuff */
+
+
+/* styling stuff  */
+h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+
+/* scroll to top button stuff */
+
+#scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;  
+  display: none;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+#scroll-to-top-button svg {
+  font-size: 24px;
+  color: #000000;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* end scroll to top button stuff */
+
+/* begin iframe stuff */
+
+.iframe-float-left {
+  padding: 10px;
+  float: left;
+  display: inline;
+}
+
+/* end iframe stuff */
+
+/* begin paragraph stuff */
+
+.para-float-right {
+  display: inline;
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* end paragraph stuff */
+
+/* begin div formatting stuff */
+
+.div-container {
+  justify-content: center;
+  display: inline;
+  vertical-align: middle;
+  border: 1px solid yellow;
+}
+
+/* end div formatting stuff */
+
+
+/* begin table formating stuff */
+
+.borderless-table {
+  border: none;
+}

@@ -1,0 +1,68 @@
+.copy-paste-style-template {
+    background-color: black;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* put a line before each header */
+body {
+    background-image: url(https://media.tenor.com/P5JzouXt-W4AAAAd/night-sky-time-lapse.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+div {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+address {
+    color:black;
+}
+
+p {
+    color: white;
+}
+
+.im1 {
+    height: 50%;
+    width: 50%;
+    border: 1px inset black;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.im2 {
+    border: 1px inset black;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul {
+    background: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background: transparent;
+    display: inline;
+    padding: 10px;
+}

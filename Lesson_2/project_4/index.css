@@ -1,0 +1,66 @@
+
+
+
+/* put a line before each header */
+body {
+    background-image: url(https://www.deccanherald.com/sites/dh/files/articleimages/2022/07/18/ap07132022000091b-1-1127712-1658143142.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    color:white;
+}
+
+
+div {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+address {
+    color:black;
+    background: transparent;
+}
+
+
+/* nav bar stuff  */
+
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.li-nav {
+    float: left;
+}
+
+.li-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.li-nav a:hover {
+    background-color: #111111;
+}
+
+/* end background stuff, begin list stuff  */
+
+ol {
+    background: transparent;
+}

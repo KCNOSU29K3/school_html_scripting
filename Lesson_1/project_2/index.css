@@ -1,0 +1,37 @@
+.main{
+    background-color: #85B175;
+}
+
+.modified_address {
+    color:black;
+    background-color: #85B175;
+}
+
+[class*=“para-“] {
+    background-color: #85B175;
+    color: black;
+  }
+
+.para-one {
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid #A175B1;
+    padding: 10px;
+}
+
+.para-two {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #A175B1;
+    padding: 10px;
+}
+
+.para-three {
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid #A175B1;
+    padding: 10px;
+}
+
+.para-four {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 3px solid #A175B1;
+    padding: 10px;
+}

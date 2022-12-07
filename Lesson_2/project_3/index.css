@@ -1,0 +1,65 @@
+/* Defining background of page */
+.main {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/inner-orion-nebula-1663173288.png);
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Defining {insert type} */
+
+.copy-paste-style-template {
+    background-color: black;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* put a line before each header */
+
+
+
+div {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+address {
+    color:white;
+}
+
+/* table stuff  */
+
+table {
+    border-radius: 25px;
+    border-style: inset;
+}
+
+.table_one {
+    background-color: transparent;
+}
+
+.table_two {
+    background-color: transparent;
+}
+
+.table_three {
+    background-color: transparent;
+}
+
+.table_four {
+    background-color: transparent;
+}
+
+.table_five {
+    background-color: transparent;
+}

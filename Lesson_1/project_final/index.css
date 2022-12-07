@@ -1,0 +1,60 @@
+/* Defining background of page */
+
+.main {
+    background-color: black;
+    background-image: url(https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1823a-1793x2000.jpg) ;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+div {
+/* position: absolute; */
+/* left: 50%; */
+/* top: 50%; */
+/* transform: translate(-50%, -50%); */
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+
+.div_border {
+    background-color: #985da2;
+    border: 15px inset #5da276;
+    border-radius: 25px;
+}
+
+
+.heading_with_bottom_border {
+    color: white;
+    border-bottom: 2px inset white;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:white
+}
+
+
+h1 {
+    color:white
+}
+
+address {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}

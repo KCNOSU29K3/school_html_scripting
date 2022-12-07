@@ -1,0 +1,46 @@
+.main{
+    background-color: rgb(18, 124, 92);
+}
+
+.modified_address {
+    color:black;
+    background-color: rgb(18, 124, 92);
+}
+
+ 
+/* defining styles for paragraphs */
+
+
+.para-one {
+    background-color: #a7aa55;
+    color: #5855aa;
+    border: 10px solid #5855aa;
+    padding: 10px;
+}
+
+
+.para-two {
+    background-color: hsl(162, 74.6%, 27.8%);
+    color: hsl(342, 75%, 28%);
+    border: 10px solid hsl(342, 75%, 28%);
+    padding: 10px
+}
+
+
+.para-three {
+    background-color: rgb(82, 89, 173);
+    color: rgb(173, 166, 82);
+    border: 10px solid rgb(173, 166, 82);
+    padding: 10px;
+}
+
+
+/* defining style for headings */
+
+
+.bordered-heading-primary {
+    background-color: rgb(18, 124, 92);
+    color: rgb(124, 18, 50);
+    border: 3px solid rgb(124, 18, 50);
+    background-clip: border-box;
+}

@@ -1,0 +1,67 @@
+/* Defining {insert type} */
+
+.copy-paste-style-template {
+    background-color: black;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* put a line before each header */
+body {
+    background-image: url(background.gifk);
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+div {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+address {
+    color:black;
+}
+
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.li-nav {
+    float: left;
+}
+
+.li-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.li-nav a:hover {
+    background-color: #111111;
+}
+
+
+.styled_iframe {
+    border: none;
+    background:transparent;
+    height: 50%;
+    width: 50%;
+}
