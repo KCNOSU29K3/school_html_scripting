@@ -16,6 +16,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  vertical-align: middle;
 }
 
 
@@ -30,6 +31,7 @@ section {
 section .container{
   margin: 100px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .reveal{
@@ -122,6 +124,7 @@ h1{
   display: inline;
   text-align: center;
   border: 1px solid black;
+  float: left;
 }
 
 /* end paragraph stuff */
@@ -132,7 +135,6 @@ h1{
   justify-content: center;
   display: inline;
   vertical-align: middle;
-  border: 1px solid yellow;
 }
 
 /* end div formatting stuff */
@@ -142,13 +144,28 @@ h1{
 
 .borderless-table {
   border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  padding: 10%;
+}
+
+th {
+  padding: 10%;
+}
+
+td {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* end table formatting stuff */
 
 /* begin link formatting stuff */
 
-.quiet-link {
+.quiet-link { 
   color: inherit;
   text-decoration: inherit;
 }
@@ -158,23 +175,41 @@ h1{
 /* begin address formatting stuff */
 .hover-address {
   position: relative;
-  
 }
 
 .hover-address:before {
   content: attr(data-hover);
   visibility: hidden;
   opacity: 0;
-  width: 10%;
-  background-color: #fafafa;
-  color: black;
-  text-align: center;
-  border-radius: 75%;
+  font-size: 50%;
+  background-color: inherit;
+  color: white;
   padding: 1.5% 0;
   transition: opacity 1s ease-in-out;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  display: block; 
 }
 
 .hover-address:hover:before{
   opacity: 1;
   visibility: visible;
+  font-size: 150%;
+  padding: 3%;
+  text-align: center;
+  display: inline;
+  margin-left: -120%;
 }
+
+
+.address-div {
+  text-align: center;
+  align-items: center;
+  background-color: inherit;
+  color: white;
+}
+
+
+/* BIG IMPORTANT https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_display_element_hover */
