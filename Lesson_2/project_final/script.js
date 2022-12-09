@@ -62,4 +62,3 @@ function reveal() {
   
 // event listener to eval rendering elements
 window.addEventListener("scroll", reveal);
-  
