@@ -11,6 +11,15 @@
     background: #42455a;
   }
 
+  td, th {
+    text-align: center;
+  }
+
+  img {
+    width: 150%;
+    height: 150%;
+  }
+
   section {
     min-height: 100vh;
     display: flex;
@@ -43,6 +52,14 @@
   }
   .section_alternate{
     background-color: #28292e;
+  }
+
+  .para-dark {
+    color: #fafafa;
+  }
+
+  .para-light {
+    color: #202020;
   }
 
 
@@ -154,27 +171,26 @@
   /* begin table formating stuff */
 
   .borderless-table-dark {
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 30%; 
     color:#fafafa
   }
 
-  .borderless-table-dark tr {
-    padding: 10%;
-    color: inherit;
-  }
-
   .borderless-table-dark th {
-    padding: 10%;
-    color: inherit;
+    padding-top: 10%;
   }
 
-  .borderless-table-dark td {
-    margin: 0 auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: inherit;
+
+
+
+  .borderless-table-light {
+    width: 30%;
+    margin: auto;
+    color:#202020
+  }
+
+  .borderless-table-light th {
+    padding-top: 10%;
   }
 
   /* end table formatting stuff */
