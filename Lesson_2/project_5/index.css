@@ -13,7 +13,7 @@
 
 /* put a line before each header */
 body {
-    background-image: url(background.gifk);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/df/Tesseract-1K.gif);
     background-color: rgb(99, 99, 99);
     display: flex;
     flex-direction: column;
